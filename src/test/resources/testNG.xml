@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="First Suite" verbose="1">
+    <test name="Sanity Test">
+        <classes>
+            <class name="">
+                <methods>
+                    <include name=""></include>
+                    <exclude name=""></exclude>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Regression Test">
+        <packages>
+            <package name=""></package>
+            <package name=""></package>
+        </packages>
+    </test>
+</suite>
